@@ -26,7 +26,8 @@ main {
   background-color: var(--white);
   border: 1px solid var(--darker-grey);
   border-radius: 20px;
-  padding: 1.5rem 1.5rem;
+  padding: 1.5rem 1.5rem 0.75rem 1.5rem;
+  min-height: 32.625rem;
 }
 
 section {
@@ -34,11 +35,30 @@ section {
 }
 
 header {
+  margin-top: 0.75rem;
   padding-bottom: 1.5rem;
 }
 
-img {
-  padding-bottom: 1.5rem;
+header p {
+  font-size: 1rem;
+  line-hight: 150%;
+  letter-spacing: 0px;
+}
+
+article h1 {
+  font-size: 1.5rem;
+  line-hight: 150%;
+  letter-spacing: 0px;
+  color: var(--darker-grey);
+  margin-bottom: 0.75rem;
+}
+
+article p {
+  font-size: 1rem;
+  line-hight: 150%;
+  letter-spacing: 0px;
+  color: var(--grey);
+  margin-top: 0.75rem;
 }
 
 .learning {
@@ -50,6 +70,7 @@ img {
   font-weight: 800;
   border-radius: 4px;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  margin-bottom: 0.75rem;
 }
 
 article {
@@ -61,4 +82,9 @@ footer {
   align-items: center;
   justify-content: flex-start;
   gap: 0.75rem;
+  padding-bottom: 1.5rem;
+}
+
+footer span {
+  font-weight: 800;
 }
