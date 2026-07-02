@@ -38,6 +38,16 @@ body {
   border-radius: 20px;
   box-shadow: 8px 8px 0 var(--shadow);
   padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border: 2px solid var(--shadow);
+  box-shadow: 12px 12px 0 var(--shadow);
+}
+
+.card:hover h1 {
+  color: var(--bg);
 }
 
 .card__image {
